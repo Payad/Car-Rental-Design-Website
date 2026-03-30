@@ -1,0 +1,345 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(255, 0, 0, 0.1) */
+    background-color: rgb(17, 209, 223, 0.1);
+    font-family: 'Alegreya', serif;
+}
+
+.nav-header {
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+
+.nav-contents {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    /* border-bottom: 1px solid black;
+    background-color: white; */
+}
+
+.animation {
+    transform: rotate(90deg);
+}
+
+span {
+    color: rgb(223, 31, 17);
+}
+
+ul.links {
+    list-style-type: none;
+    /* margin: 0; */
+    /* padding: 1rem; */
+    /* padding-left: 1rem; */
+    padding: 0rem;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-li, .nav-li {
+    /* padding-bottom: 1.5rem; */
+    padding: 11px;
+    padding-left: 1rem;
+}
+
+li:hover {
+    background-color: rgb(223, 31, 17, 0.5);
+}
+
+.show-links {
+    height: 10rem;
+    /* display: block; */
+    transition: height 1s;
+}
+
+/*  social icons */
+.social-media {
+    display: none;
+}
+
+/* Hero image styles */
+img {
+    width: 100%;
+}
+
+/* hero & hero paragragh styles */
+.hero {
+    position: relative;
+}
+
+p.hero-desc {
+    position: absolute;
+    top: 0;
+    font-family: system-ui;
+    font-size: 20px;
+    margin: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+/* Proposition section */
+section.container {
+    /* display: flex; */
+    text-align: center;
+    /* font-size: 12px; */
+}
+
+.primary {
+    padding: 1rem;
+}
+
+.secondary {
+    padding: 1rem;
+}
+
+.main-desc {
+    padding: 1rem
+}
+
+.freeTrial {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 3px 8px;
+}
+
+/* section feature container */
+section.feature-container {
+    display: flex;
+    flex-direction: column;
+    /* font-size: 5px; */
+    padding: 1rem;
+    align-items: center;
+    /* height: 58vh; */
+    background-color: rgb(255, 0, 0, 0.5)
+}
+
+/* features section */
+/* .features {
+    font-size: 20px;
+} */
+
+p.feature-desc {
+    text-align: center;
+    padding: 0.5rem;
+    /* font-size: 0.5em; */
+}
+
+/* h4 element */
+h4 {
+    text-align: center;
+    /* font-size: .8em; */
+}
+
+/* ul.feature-list */
+ul.feature-list {
+    /* display: flex; */
+    padding-left: 5rem;
+}
+
+/* feature image */
+.feature-Hero {
+    width: 100%;
+}
+
+/* .features {
+    max-width: 230px;
+    max-height: 200px;
+    min-height: 100px;
+    font-size: 13px
+} */
+
+/* .feature-list {
+    font-size: .5em;
+} */
+
+img.bmwInterior {
+    max-width: 530px;
+    /* min-width: 200px; */
+}
+
+/*  feature  li */
+/* li.feature-li {
+    padding: 4px;
+} */
+
+/* post section */
+
+.post-title, .post-intro {
+    text-align: center;
+}
+
+/* card styles */
+.card {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px rgb(255, 0, 0, 0.5);
+}
+
+/* card span styles */
+span.special-feature {
+    margin: 0px 10px;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+span.see-more {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+p {
+    text-align: center;
+    padding: 1rem;
+}
+
+/* CTA section */
+
+.cta.section {
+    /* background-color: red; */
+    background-color: rgb(255, 0, 0, 0.5);
+}
+
+.cta-container {
+    padding: 1rem;
+}
+
+.cta-btn {
+    text-align: center;
+}
+
+button.start {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+}
+button.contact {
+    background-color: rgb(255, 0, 0, 0.1);
+    border-bottom-style: inset;
+    padding: 5px 10px;
+}
+
+p.ready, p.signup {
+    padding: 0;
+}
+
+/* trusted comapnies */
+.trusted-companies {
+    display: flex;
+    justify-content: center;
+}
+
+/* google-icon */
+.google-icon {
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* footer and links */
+.footer {
+    background-color: rgb(0, 0, 0);
+}
+
+ul.footer-links {
+    display: flex;
+    list-style-type: none;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+/* footer social media icons */
+.footer-social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+/* copy right */
+span.rights {
+    display: block;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .drop-down {
+        display: none;
+    }
+
+    ul.links {
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 0.3rem;
+        margin-right: 35%;
+        overflow: initial;
+    }
+
+    .social-media {
+        display: block;
+        position: absolute;
+        padding: 1.2rem;
+        top: 0;
+        right: 0;
+    }
+
+    svg {
+        padding-left: 1rem;
+    }
+
+    /* feature section */
+    section.feature-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* posts section */
+    .posts {
+        display: flex;
+        /* width: 50%; */
+        justify-content: space-evenly;
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+
+    /* post section card div */
+    .card {
+        /* margin-left: 20px; */
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /* posts section */
+    .posts-section {
+        font-size: 20px
+    }
+    /* cta section */
+    section.cta.section {
+        font-size: 20px
+    }
+
+    .google-icon {
+        width: 5%;
+    }
+
+    .features {
+        font-size: 20px;
+    }
+}
